@@ -85,7 +85,7 @@ if ($mail->send()) {
         <div style="background-color: white; border-radius: 10px;padding-left: 15px;padding-right: 15px;margin: 0 auto; width:90%;">
     <h2 style="text-align: center; padding-top:20px;"><span style="color: red;">Uni</span><span style="color: dodgerblue;">tech</span></h2>
     <h3 style="text-align: center; color:grey;">We have recieved your message about your project, we shall get back to you sooner.</h3><br>
-    <h3>Below are your project details submitted to us :</h3>
+    <!--<h3>Below are your project details submitted to us :</h3>-->
     <p><?php echo "Brand : " .$brand; ?></p>
     <p><?php echo "Number : " .$number; ?></p>
     <p><?php echo "Business type : " .$business; ?></p>
