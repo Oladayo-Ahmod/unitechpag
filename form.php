@@ -86,10 +86,10 @@ if ($mail->send()) {
     <h2 style="text-align: center; padding-top:20px;"><span style="color: red;">Uni</span><span style="color: dodgerblue;">tech</span></h2>
     <h3 style="text-align: center; color:grey;">We have recieved your message about your project, we shall get back to you sooner.</h3><br>
     <h3>Below are your project details submitted to us :</h3>
-    <p><?php echo "Brand : " .$brand."."; ?></p>
-    <p><?php echo "Number : " .$number."."; ?></p>
-    <p><?php echo "Business type : " .$business."."; ?></p>
-    <p><?php echo "Project details : " .$message."."; ?></p><br>
+    <p><?php echo "Brand : " .$brand; ?></p>
+    <p><?php echo "Number : " .$number; ?></p>
+    <p><?php echo "Business type : " .$business; ?></p>
+    <p><?php echo "Project details : " .$message; ?></p><br>
    
 </div><br>
  <div style="height: 30px; width: 92%; background-color:#f8f8f8; text-align: center; color: grey;border-radius: 15px;margin: 0 3% 0 4%;">
