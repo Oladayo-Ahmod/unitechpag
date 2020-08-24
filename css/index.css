@@ -1158,15 +1158,36 @@ background-color: black;
     	font-size: 30px;
     }
 	.box{
-		width:90%;
+		width:100%;
+		padding: 0;
+		box-shadow: none;
 		text-align: center;
 		align-content: center;
 		align-items: center;
-		margin: 20px 0 300px 17px;*/
+		margin: 20px 0 300px 0;
+
+	}
+	.box .box-image{
+		display: block;
+		width: 100%;
+		margin: 0;
+		padding: 5px;
+	}
+	.box .box-image img{
+		width: 98%;
+		text-align: center;
+	}
+	.box .image-hover{
+		width: 100%;
+		margin:0;
 	}
 	.box p{
+		width: 95%;
+		margin-left: 5px;
+		text-align: center;
 		font-size: 14px;
 		word-spacing: 1px;
+		box-shadow: 0 0px 8px 2px rgba(0,0,0,0.5);
 	}
 	.body_toggle .box p{
 	box-shadow: 0px 0px 8px 2px #444444;	
@@ -1199,10 +1220,10 @@ background-color: black;
 .project-con{
 	display: block;
 	text-align: center;
-	width: 100%;
-	/*margin:20px 0 20px 0;*/
-	margin: 0;
+	width: 95%;
+	box-shadow:-10px -10px 10px rgba(255,255,255,0.5), 0px 10px rgba(0,0,0,0.05);
 	padding: 0;
+	margin: 0 0 0 3px;
 }
 .body_toggle .project-con{
 	box-shadow: none;
@@ -1290,7 +1311,8 @@ background-color: black;
 		left: 0;
 		animation-name: top;
 		animation-duration: 1s;
-		top: 55px;
+		top: 48px;
+		border-radius: 10px;
 		position: relative;
 		z-index: 1;
 	}
@@ -1479,7 +1501,12 @@ display: none;
 }
 .swipe2{
 	height: 480px;
-
+	box-shadow: none;
+}
+.swipe2 .swiper-slide{
+	border-radius: 10px;
+	box-shadow: none;
+	background-color: #000080;
 }
 .swipe2 .swiper-slide .details{
 	
@@ -1488,6 +1515,10 @@ display: none;
 }
 .swipe2 .swiper-slide .details p{
 	font-size: 15px;
+	color: lightgrey;
+}
+.swipe2 .swiper-slide .details h3{
+	color: lightgrey;
 }
 .swipe2 .swiper-slide .image{
 	width: 100%;
